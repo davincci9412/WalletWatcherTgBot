@@ -10,6 +10,8 @@ importWalletStep.enter((ctx) =>
   )
 );
 
+console.log("Hello world!");
+
 importWalletStep.on("text", (ctx) => {
   const phrase = ctx.message.text;
 
